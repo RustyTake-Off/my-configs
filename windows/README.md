@@ -14,7 +14,7 @@ Get Windows and use the Creation Tool or Rufus to create a bootable USB.
 
 ## Install Drivers
 
-* [**Dell Drivers**](https://www.dell.com/support/home/pl-pl/product-support/product/latitude-15-5580-laptop/drivers)
+[**Dell Drivers**](https://www.dell.com/support/home/pl-pl/product-support/product/latitude-15-5580-laptop/drivers)
 
 ```txt
 Intel-Chipset-Device-Software_HMDR4_WIN_10.1.1.38_A05_06
@@ -38,7 +38,7 @@ Realtek-High-Definition-Audio-Driver_88XXX_WIN_6.0.8895.1_A23_01
 
 ## Software
 
-**Mandatory:**
+### **Mandatory:**
 
 ```powershell
 winget install File-New-Project.EarTrumpet -i
@@ -60,11 +60,15 @@ winget install Docker.DockerDesktop -i
 winget install Microsoft.VisualStudioCode -i
 
 winget install Microsoft.AzureCLI -i
-
-Brother Printer Drivers
 ```
 
-**Other:**
+Brother Printer Drivers
+
+### **Install WSL**
+
+[WSL](https://github.com/RustyTake-Off/my-configs/tree/main/wsl_2)
+
+### **Other:**
 
 Install [arkade](https://github.com/alexellis/arkade)
 
@@ -118,7 +122,7 @@ arkade get jq
 arkade get hadolint
 ```
 
-**Optional:**
+### **Optional:**
 
 ```powershell
 winget install CPUID.HWMonitor -i
@@ -154,4 +158,10 @@ winget install Microsoft.VCRedist.2012.x64
 winget install Microsoft.VCRedist.2013.x64
 
 winget install Microsoft.VCRedist.2015+.x64
+```
+
+## (OPTIONAL) Windows Debloat
+
+```powershell
+iwr -useb https://christitus.com/win | iex
 ```
