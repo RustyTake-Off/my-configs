@@ -60,6 +60,8 @@ winget install Docker.DockerDesktop -i
 winget install Microsoft.VisualStudioCode -i
 
 winget install Microsoft.AzureCLI -i
+
+winget install Notepad++.Notepad -i
 ```
 
 Printer Drivers
@@ -119,6 +121,10 @@ arkade get jq
 ### **Optional:**
 
 ```powershell
+winget install Google.Chrome -i
+
+winget install Mozilla.Firefox -i
+
 winget install CPUID.HWMonitor -i
 
 winget install SumatraPDF.SumatraPDF -i
@@ -138,6 +144,8 @@ winget install OBSProject.OBSStudio -i
 winget install Microsoft.Teams -i
 
 winget install clsid2.mpc-hc -i
+
+winget install VideoLAN.VLC -i
 
 winget install TheDocumentFoundation.LibreOffice -i
 
