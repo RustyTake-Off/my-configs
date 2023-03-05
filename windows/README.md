@@ -62,28 +62,22 @@ winget install Microsoft.VisualStudioCode -i
 winget install Microsoft.AzureCLI -i
 ```
 
-Brother Printer Drivers
+Printer Drivers
 
 ### **Install WSL**
 
-[WSL](https://github.com/RustyTake-Off/my-configs/tree/main/wsl_2)
+[WSL Configuration](https://github.com/RustyTake-Off/my-configs/tree/main/wsl_2)
 
 ### **Other:**
 
-Install [arkade](https://github.com/alexellis/arkade)
-
-```bash
-arkade get kubectl@v1.26.2
-```
-
-Install tools:
+Install [arkade](https://github.com/alexellis/arkade) and other tools through arkade. Use arkade commands through Git Bash.
 
 ```bash
 arkade get arkade
 
 arkade get gh
 
-arkade get terraform
+arkade get lazygit
 
 arkade get kubectl
 
@@ -99,6 +93,10 @@ arkade get kind
 
 arkade get k9s
 
+arkade get hadolint
+
+arkade get terraform
+
 arkade get packer
 
 arkade get vagrant
@@ -113,13 +111,9 @@ arkade get flux
 
 arkade get sops
 
-arkade get lazygit
-
 arkade get yq
 
 arkade get jq
-
-arkade get hadolint
 ```
 
 ### **Optional:**
