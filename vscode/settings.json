@@ -1,5 +1,4 @@
 {
-  // VSCode
   "telemetry.telemetryLevel": "off",
   "update.showReleaseNotes": false,
   "workbench.startupEditor": "none",
@@ -18,6 +17,7 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairsHorizontal": true,
   "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
   // indentRainbow
   "indentRainbow.colors": [
     "rgba(148,0,211,0.25)",
@@ -29,7 +29,6 @@
     "rgba(255,0,0,0.25)"
   ],
   // terraform
-  "editor.formatOnSave": true,
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": false,
@@ -42,6 +41,15 @@
     "editor.formatOnSave": false,
     "editor.codeActionsOnSave": {
       "source.formatAll.terraform": true
+    },
+  },
+  // markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
     },
   },
   // better-comments
