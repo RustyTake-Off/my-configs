@@ -65,10 +65,8 @@ Disabled
 
 ```txt
 uBlock Origin
-File: ublock-config.txt
 
 Midnight Lizard
-File: DimmedDust.json
 
 Extensity
 

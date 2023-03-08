@@ -38,6 +38,10 @@ Realtek-High-Definition-Audio-Driver_88XXX_WIN_6.0.8895.1_A23_01
 
 ## Software
 
+```powershell
+winget install $package.name [-i (interactive)] [-s winget (source)]
+```
+
 ### **Mandatory:**
 
 ```powershell

@@ -2,7 +2,7 @@
 
 ## Load settings
 
-Load **settings.json** file.
+Load [**settings.json**](https://github.com/RustyTake-Off/my-configs/blob/main/vscode/settings.json) file.
 
 ## Extensions
 
@@ -13,6 +13,10 @@ code --list-extensions
 ```
 
 ### Install extensions
+
+```powershell
+code --install-extension $extension.name
+```
 
 ```powershell
 code --install-extension aaron-bond.better-comments
@@ -99,5 +103,5 @@ code --install-extension yzhang.markdown-all-in-one
 ### Uninstall extensions
 
 ```powershell
-code --uninstall-extension $extensionName
+code --uninstall-extension $extension.name
 ```

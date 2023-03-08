@@ -11,6 +11,7 @@
   "terminal.integrated.enableBell": true,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.shellIntegration.history": 1000,
+  "terminal.integrated.fontFamily": "DroidSansMono Nerd Font Mono",
   "editor.fontSize": 20,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
